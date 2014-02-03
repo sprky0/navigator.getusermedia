@@ -3,7 +3,8 @@ define("navigator/getusermedia", [], function() {
 	// run a maximum of once
 	if (window.getUserMedia)
 		return;
-	( function(window, navigator) {
+
+	(function(window, navigator) {
 
 			var getUserMedia;
 
@@ -57,4 +58,4 @@ define("navigator/getusermedia", [], function() {
 
 		}( typeof window === "object" && window || this, this.navigator || {}) );
 
-}); 
+});
