@@ -1,4 +1,11 @@
-( function(window, navigator) {
+define("navigator/getusermedia", [], function() {
+
+	// run a maximum of once
+	if (window.getUserMedia)
+		return;
+
+	(function(window, navigator) {
+
 		var getUserMedia;
 
 		// 2012-03-08 Inspired by https://gist.github.com/f2ac64ed7fc467ccdfe3
@@ -46,6 +53,9 @@
 			}, errback ||
 			function() {
 			});
+
 		} : undefined;
 
 	}( typeof window === "object" && window || this, this.navigator || {}) );
+
+});
