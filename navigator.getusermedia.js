@@ -1,4 +1,4 @@
-define("navigator/getusermedia", [], function() {
+define("navigator.getusermedia", [], function() {
 
 	// run a maximum of once
 	if (window.getUserMedia)
