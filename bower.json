@@ -1,0 +1,24 @@
+{
+  "name": "navigator.getusermedia",
+  "main": "navigator.getusermedia.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sprky0/navigator.getusermedia",
+  "authors": [
+    "(Rick Waldron <waldron.rick@gmail.com>)",
+    "(sprky0 <avery@averyisgreat.com>)"
+  ],
+  "description": "AMD port of rwaldron's navigator.getUserMedia normalizer utility.",
+  "keywords": [
+    "navigator",
+    "webcam",
+    "getUserMedia"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
